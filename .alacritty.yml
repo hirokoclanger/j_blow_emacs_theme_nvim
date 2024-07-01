@@ -1,0 +1,32 @@
+key_bindings:
+  - {key: F7, action: ToggleSimpleFullscreen }
+font:
+  normal:
+    family: Anonymous Pro 
+    style: Regular
+  italic:
+    family: Anonymous Pro 
+    style: Regular
+  bold:
+    family: Anonymous Pro 
+    style: Bold
+
+  size: 16
+
+# Colors (Tomorrow Night Bright)
+colors:
+  # Default colors
+  primary:
+      # background: '0x073642'
+    background: '0x112a2a'  
+    foreground: '0xc0b3a6'
+window:
+  decorations: None
+  padding: 
+    y: 10
+    x: 6
+  dimensions:
+    columns: 90
+    lines: 55
+  position: 
+    x: 20
