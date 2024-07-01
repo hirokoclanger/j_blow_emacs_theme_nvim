@@ -1,24 +1,24 @@
-# j_blow_emacs_theme_nvim
+
 Jonathan Blows Theme for NVIM
 
-# Install
-```
+### Install
+```lua
 cp ~/Downloads/naysayer.vim ~/.config/nvim/colors/
 ```
 
-# Set Color and colorscheme in init.lua
-```
+### Set Color and colorscheme in init.lua
+```lua
 vim.o.termguicolors = true
 vim.cmd('colorscheme naysayer')
 ```
 
-# Remove the signcolumn
-```
+### Remove the signcolumn
+```lua
 vim.wo.signcolumn = 'no'
 ```
 
-#Lua Line Theming to Seoul256
-```
+###Lua Line Theming to Seoul256
+```lua
  {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
