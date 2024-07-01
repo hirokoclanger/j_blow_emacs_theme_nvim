@@ -1,6 +1,6 @@
 " Vim color file
 " jblow
-" Created by topticktom with ThemeCreator (https://github.com/mswift42/themecreator)
+" Created by hirokoclanger
 
 hi clear
 
