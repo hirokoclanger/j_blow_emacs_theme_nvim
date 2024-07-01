@@ -1,5 +1,5 @@
 " Vim color file
-" naysayer
+" jblow
 " Created by topticktom with ThemeCreator (https://github.com/mswift42/themecreator)
 
 hi clear
