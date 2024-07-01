@@ -17,7 +17,7 @@ vim.cmd('colorscheme naysayer')
 vim.wo.signcolumn = 'no'
 ```
 
-###Lua Line Theming to Seoul256
+### Lua Line Theming to Seoul256
 ```lua
  {
     -- Set lualine as statusline
