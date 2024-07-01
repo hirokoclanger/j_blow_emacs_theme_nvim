@@ -6,10 +6,11 @@ Jonathan Blows Theme for NVIM
 cp ~/Downloads/naysayer.vim ~/.config/nvim/colors/
 ```
 
-### Set Color and colorscheme in init.lua
+### Set colormode, cursor color and colorscheme in init.lua
 ```lua
 vim.o.termguicolors = true
-vim.cmd('colorscheme naysayer')
+vim.cmd('colorscheme jblow')
+vim.opt.guicursor = "n-v-c:block-Cursor/lCursor"
 ```
 
 ### Remove the signcolumn
