@@ -21,6 +21,7 @@ let s:fg4="#857762"
 let s:bg2="#112a2a"
 let s:bg3="#112a2a"
 let s:bg4="#112a2a"
+let s:bg5="#9af59c"
 let s:keyword="white"
 let s:builtin="lightblue"
 let s:const= "#d3b58d"
@@ -33,7 +34,7 @@ let s:warning="#ad3e00"
 let s:warning2="#faebd7"
 let s:warning3="#1e3838"
 exe 'hi Normal guifg='s:fg' guibg='s:bg
-exe 'hi Cursor guifg='s:bg' guibg='s:fg
+exe 'hi Cursor guifg='s:bg' guibg='s:bg5
 exe 'hi CursorLine  guibg='s:bg2
 exe 'hi CursorLineNr guifg='s:str' guibg='s:bg
 exe 'hi CursorColumn  guibg='s:bg2
